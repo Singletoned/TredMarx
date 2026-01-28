@@ -15,10 +15,6 @@
     <string>TredMarx saves your treadmill walking workouts to Health, including steps, distance, and calories burned</string>
     <key>NSMotionUsageDescription</key>
     <string>TredMarx uses your device's motion sensors to count steps during indoor treadmill workouts</string>
-    <key>UIBackgroundModes</key>
-    <array>
-        <string>processing</string>
-    </array>
     <key>UIRequiredDeviceCapabilities</key>
     <array>
         <string>healthkit</string>
