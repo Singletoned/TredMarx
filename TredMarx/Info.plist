@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+        <key>UISceneConfigurations</key>
+        <dict/>
+    </dict>
+    <key>NSHealthShareUsageDescription</key>
+    <string>TredMarx reads your height and weight from Health to calculate calories burned during treadmill workouts</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>TredMarx saves your treadmill walking workouts to Health, including steps, distance, and calories burned</string>
+    <key>NSMotionUsageDescription</key>
+    <string>TredMarx uses your device's motion sensors to count steps during indoor treadmill workouts</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>processing</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>healthkit</string>
+    </array>
+</dict>
+</plist>

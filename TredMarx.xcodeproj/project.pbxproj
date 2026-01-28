@@ -6,20 +6,76 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		A959D1F42F2AA08800F3050E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A959D1D62F2AA08800F3050E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A959D1DD2F2AA08800F3050E;
+			remoteInfo = TredMarx;
+		};
+		A959D1F52F2AA08800F3050E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A959D1D62F2AA08800F3050E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A959D1DD2F2AA08800F3050E;
+			remoteInfo = TredMarx;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		A959D1DE2F2AA08800F3050E /* TredMarx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TredMarx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959D1F02F2AA08800F3050E /* TredMarxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TredMarxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959D1F12F2AA08800F3050E /* TredMarxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TredMarxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A959D20C2F2AA08800F3050E /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A959D1DD2F2AA08800F3050E /* TredMarx */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A959D1E02F2AA08800F3050E /* TredMarx */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A959D20C2F2AA08800F3050E /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
 			path = TredMarx;
+			sourceTree = "<group>";
+		};
+		A959D1F22F2AA08800F3050E /* TredMarxTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TredMarxTests;
+			sourceTree = "<group>";
+		};
+		A959D1F32F2AA08800F3050E /* TredMarxUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TredMarxUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A959D1DB2F2AA08800F3050E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959D2062F2AA08800F3050E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959D2072F2AA08800F3050E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				A959D1E02F2AA08800F3050E /* TredMarx */,
+				A959D1F22F2AA08800F3050E /* TredMarxTests */,
+				A959D1F32F2AA08800F3050E /* TredMarxUITests */,
 				A959D1DF2F2AA08800F3050E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				A959D1DE2F2AA08800F3050E /* TredMarx.app */,
+				A959D1F02F2AA08800F3050E /* TredMarxTests.xctest */,
+				A959D1F12F2AA08800F3050E /* TredMarxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +130,52 @@
 			productReference = A959D1DE2F2AA08800F3050E /* TredMarx.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A959D1FA2F2AA08800F3050E /* TredMarxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959D2042F2AA08800F3050E /* Build configuration list for PBXNativeTarget "TredMarxTests" */;
+			buildPhases = (
+				A959D2082F2AA08800F3050E /* Sources */,
+				A959D2062F2AA08800F3050E /* Frameworks */,
+				A959D2092F2AA08800F3050E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A959D1FE2F2AA08800F3050E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A959D1F22F2AA08800F3050E /* TredMarxTests */,
+			);
+			name = TredMarxTests;
+			packageProductDependencies = (
+			);
+			productName = TredMarxTests;
+			productReference = A959D1F02F2AA08800F3050E /* TredMarxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A959D1FB2F2AA08800F3050E /* TredMarxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959D2052F2AA08800F3050E /* Build configuration list for PBXNativeTarget "TredMarxUITests" */;
+			buildPhases = (
+				A959D20A2F2AA08800F3050E /* Sources */,
+				A959D2072F2AA08800F3050E /* Frameworks */,
+				A959D20B2F2AA08800F3050E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A959D1FF2F2AA08800F3050E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A959D1F32F2AA08800F3050E /* TredMarxUITests */,
+			);
+			name = TredMarxUITests;
+			packageProductDependencies = (
+			);
+			productName = TredMarxUITests;
+			productReference = A959D1F12F2AA08800F3050E /* TredMarxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +188,14 @@
 				TargetAttributes = {
 					A959D1DD2F2AA08800F3050E = {
 						CreatedOnToolsVersion = 26.1.1;
+					};
+					A959D1FA2F2AA08800F3050E = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = A959D1DD2F2AA08800F3050E;
+					};
+					A959D1FB2F2AA08800F3050E = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = A959D1DD2F2AA08800F3050E;
 					};
 				};
 			};
@@ -100,12 +214,28 @@
 			projectRoot = "";
 			targets = (
 				A959D1DD2F2AA08800F3050E /* TredMarx */,
+				A959D1FA2F2AA08800F3050E /* TredMarxTests */,
+				A959D1FB2F2AA08800F3050E /* TredMarxUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A959D1DC2F2AA08800F3050E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959D2092F2AA08800F3050E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959D20B2F2AA08800F3050E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +252,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A959D2082F2AA08800F3050E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959D20A2F2AA08800F3050E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A959D1FE2F2AA08800F3050E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A959D1DD2F2AA08800F3050E /* TredMarx */;
+			targetProxy = A959D1F42F2AA08800F3050E /* PBXContainerItemProxy */;
+		};
+		A959D1FF2F2AA08800F3050E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A959D1DD2F2AA08800F3050E /* TredMarx */;
+			targetProxy = A959D1F52F2AA08800F3050E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A959D1E72F2AA08800F3050E /* Debug */ = {
@@ -178,7 +335,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				INFOPLIST_FILE = TredMarx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -236,7 +394,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				INFOPLIST_FILE = TredMarx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -251,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TredMarx/TredMarx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YZ9ZZQRH9;
@@ -268,11 +428,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singletoned.TredMarx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TredMarx/TredMarx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YZ9ZZQRH9;
@@ -300,13 +457,77 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singletoned.TredMarx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A959D2002F2AA08800F3050E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singletoned.TredMarxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TredMarx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TredMarx";
+			};
+			name = Debug;
+		};
+		A959D2012F2AA08800F3050E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singletoned.TredMarxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TredMarx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TredMarx";
+			};
+			name = Release;
+		};
+		A959D2022F2AA08800F3050E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singletoned.TredMarxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TredMarx;
+			};
+			name = Debug;
+		};
+		A959D2032F2AA08800F3050E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Singletoned.TredMarxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TredMarx;
 			};
 			name = Release;
 		};
@@ -327,6 +548,24 @@
 			buildConfigurations = (
 				A959D1EA2F2AA08800F3050E /* Debug */,
 				A959D1EB2F2AA08800F3050E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A959D2042F2AA08800F3050E /* Build configuration list for PBXNativeTarget "TredMarxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959D2002F2AA08800F3050E /* Debug */,
+				A959D2012F2AA08800F3050E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A959D2052F2AA08800F3050E /* Build configuration list for PBXNativeTarget "TredMarxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959D2022F2AA08800F3050E /* Debug */,
+				A959D2032F2AA08800F3050E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
